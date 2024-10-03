@@ -152,5 +152,6 @@ CREATE TABLE UserFoodLog (
     FOREIGN KEY (food_id) REFERENCES Food(food_id)
 );
 SHOW TABLES;
+SELECT * FROM Food;
 
 
