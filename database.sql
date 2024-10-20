@@ -1,4 +1,4 @@
-
+CREATE DATABASE nutritracker;
 USE nutritracker;
 
 -- Create the Food table
