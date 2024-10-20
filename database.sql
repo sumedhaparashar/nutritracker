@@ -2,6 +2,16 @@
 USE nutritracker;
 
 -- Create the Food table
+CREATE TABLE IF NOT EXISTS Food (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    food_name VARCHAR(255) NOT NULL,
+    category VARCHAR(255),
+    serving_size DECIMAL(5, 2),
+    calories DECIMAL(5, 2),
+    carbohydrates DECIMAL(5, 2),
+    proteins DECIMAL(5, 2),
+    fats DECIMAL(5, 2)
+);
 
 
 -- Insert sample Indian food data into the Food table
